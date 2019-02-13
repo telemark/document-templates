@@ -48,20 +48,38 @@ test('It returns data if template exists', t => {
   Object.keys(templates).forEach(template => t.truthy(getTemplate({ domain: 'avtaler', templateId: template })))
 })
 
-test('It returns expected matedata', t => {
+test('It returns expected metadata', t => {
   let template = getTemplate({ domain: 'avtaler', templateId: 'elevpc' })
   delete template.filePath
   t.deepEqual(expectedData, template, 'Data OK')
 })
 
-test('Requires input', t => {
+test('Requires input - options object', t => {
   const error = t.throws(() => getTemplate())
 
-  t.is(error.message, 'Missing required input: template id')
+  t.is(error.message, 'Missing required input: options object')
+})
+
+test('Requires input - options.domain', t => {
+  const error = t.throws(() => getTemplate({}))
+
+  t.is(error.message, 'Missing required input: options.domain')
+})
+
+test('Requires input - options.templateId', t => {
+  const error = t.throws(() => getTemplate({ domain: 'avtaler' }))
+
+  t.is(error.message, 'Missing required input: options.templateId')
+})
+
+test('Throws if domain does not exist', t => {
+  const error = t.throws(() => getTemplate({ domain: 'finnes-ikke', templateId: 'finnes-ikke' }))
+
+  t.is(error.message, 'Cannot find module \'./templates/finnes-ikke.json\'')
 })
 
 test('Throws if template does not exist', t => {
-  const error = t.throws(() => getTemplate('finnes-ikke'))
+  const error = t.throws(() => getTemplate({ domain: 'avtaler', templateId: 'finnes-ikke' }))
 
   t.is(error.message, 'Template not found')
 })

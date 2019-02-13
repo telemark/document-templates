@@ -13,13 +13,8 @@ module.exports = options => {
     throw new Error('Missing required input: options.templateId')
   }
 
-  const templates = require(`./templates/${options.domain}.json`)
-
-  if (!templates) {
-    throw new Error('Domain not found')
-  }
-
-  let document = templates[options.id]
+  const domain = require(`./templates/${options.domain}.json`)
+  let document = domain[options.templateId]
 
   if (!document) {
     throw new Error('Template not found')
