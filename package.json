@@ -1,0 +1,44 @@
+{
+  "name": "document-templates",
+  "version": "1.0.0",
+  "description": "Templates for document generation",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10.15.1"
+  },
+  "scripts": {
+    "test": "standard && npm audit && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
+  },
+  "keywords": [
+    "Tfk",
+    "Telemark fylkeskommune",
+    "Avtaler",
+    "eSignatur",
+    "Maler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telemark/document-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/document-templates/issues"
+  },
+  "homepage": "https://github.com/telemark/document-templates#readme",
+  "devDependencies": {
+    "ava": "1.2.1",
+    "coveralls": "3.0.2",
+    "nyc": "13.2.0",
+    "standard": "12.0.1"
+  }
+}
