@@ -1,0 +1,44 @@
+{
+  "mottatt-kultur": {
+    "file": "mottatt.kultur.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "mottatt-folkehelse": {
+    "file": "mottatt.folkehelse.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "soknad": {
+    "file": "soknad.docx",
+    "archive": {
+      "Category": "Dokument inn",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  }
+}
