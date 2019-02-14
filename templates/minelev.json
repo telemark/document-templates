@@ -1,0 +1,226 @@
+{
+  "atferd": {
+    "file": "atferd.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "fag": {
+    "file": "fag.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "foresatte": {
+    "file": "foresatte.docx",
+    "archive": {
+      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "hemmelig-adresse": {
+    "file": "hemmelig-adresse.docx",
+    "archive": {
+      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "orden": {
+    "file": "orden.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "ikke-samtale": {
+    "file": "ikke-samtale.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "hemmelig-adresse-ikke-samtale": {
+    "file": "hemmelig-adresse-ikke-samtale.docx",
+    "archive": {
+      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "kontrakt-signert": {
+    "file": "kontrakt-signert.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "hemmelig-adresse-kontrakt-signert": {
+    "file": "hemmelig-adresse-kontrakt-signert.docx",
+    "archive": {
+      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "samtale": {
+    "file": "samtale.docx",
+    "archive": {
+      "Category": "Internt notat e-post UTEN oppfølging (X)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "notat": {
+    "file": "notat.docx",
+    "archive": {
+      "Category": "Internt notat e-post UTEN oppfølging (X)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "yff-tilbakemelding": {
+    "file": "yff-tilbakemelding.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "yff-bekreftelse": {
+    "file": "yff-bekreftelse.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "yff-bekreftelse-bedrift": {
+    "file": "yff-bekreftelse.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "yff-lokalplan": {
+    "file": "yff-lokalplan.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "yff-hemmelig-adresse": {
+    "file": "yff-hemmelig-adresse.docx",
+    "archive": {
+      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  }
+}
