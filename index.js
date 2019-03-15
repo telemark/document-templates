@@ -14,13 +14,17 @@ module.exports = options => {
   }
 
   const domain = require(`./templates/${options.domain}.json`)
-  let document = domain[options.templateId]
+  let document = domain[options.templateId.toLowerCase()]
 
   if (!document) {
     throw new Error('Template not found')
   }
 
-  document.filePath = path.join(__dirname, `templates/${options.domain}`, document.file)
+  if (document.file) {
+    document.filePath = path.join(__dirname, `templates/${options.domain}`, document.file)
+  } else {
+    document.filePath = false
+  }
 
   return document
 }

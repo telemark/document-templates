@@ -8,7 +8,9 @@ test('All files are available', async t => {
     const domain = template.replace('.json', '')
     const index = require(`../../templates/${template}`)
     const files = readdirSync(`templates/${domain}`)
-    const allFiles = Object.values(index).map(template => template.file)
+    const allFiles = Object.values(index)
+      .filter(template => template.file)
+      .map(template => template.file)
     allFiles.forEach(template => {
       t.deepEqual(files.includes(template), true, `${template} ok`)
     })

@@ -1,0 +1,156 @@
+{
+  "soker_n": {
+    "file": false,
+    "archive": {
+      "Title": "Ny søker",
+      "Year": false,
+      "SchoolYear": true,
+      "Category": "Dokument inn",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "TFK-robot",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": false,
+      "ResponsiblePersonRecno": "200333"
+    }
+  },
+  "soker_e": {
+    "file": false,
+    "archive": {
+      "Title": "Endret elev",
+      "Year": false,
+      "SchoolYear": true,
+      "Category": "Dokument inn",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "TFK-robot",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": false,
+      "ResponsiblePersonRecno": "200333" 
+    }
+  },
+  "soknad": {
+    "file": false,
+    "archive": {
+      "Title": "Vigosøknad – videregående opplæring -",
+      "Year": false,
+      "SchoolYear": true,
+      "Category": "Dokument inn",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "TFK-robot",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": true,
+      "ResponsiblePersonRecno": "200333" 
+    }
+  },
+  "tilbud": {
+    "file": false,
+    "archive": {
+      "Title": "Tilbud - skoleplass - videregående opplæring - vigo -",
+      "Year": false,
+      "SchoolYear": true,
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "TFK-robot",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": true,
+      "ResponsiblePersonRecno": "200333" 
+    }
+  },
+  "svar": {
+    "file": false,
+    "archive": {
+      "Title": "Søkerens svar - vigosøknad - videregående opplæring -",
+      "Year": false,
+      "SchoolYear": true,
+      "Category": "Dokument inn",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "TFK-robot",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": true,
+      "ResponsiblePersonRecno": "200333" 
+    }
+  },
+  "formidl": {
+    "file": false,
+    "archive": {
+      "Title": "Resultat av formidling til læreplass -",
+      "Year": true,
+      "SchoolYear": false,
+      "Category": "Dokument inn",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "TFK-robot",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": true,
+      "ResponsiblePersonRecno": "200333" 
+    }
+  },
+  "kontrakt": {
+    "file": false,
+    "archive": {
+      "Title": "Godkjent lærekontrakt – elektronisk signert -",
+      "Year": true,
+      "SchoolYear": false,
+      "Category": "Dokument ut",
+      "SignOff": true,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "AccessGroup": "Fagopplæring",
+      "NoarkClassificationCode": "B31",
+      "Ansvarlig": "Telemark fylkeskommune",
+      "Status": "J",
+      "includeDocuments": true,
+      "ResponsibleEnterpriseRecno": "210445" 
+    }
+  },
+  "kontrakt-signert": {
+    "file": "kontrakt-signert.docx",
+    "archive": {
+      "Category": "Dokument ut",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  },
+  "hemmelig-adresse-kontrakt-signert": {
+    "file": "hemmelig-adresse-kontrakt-signert.docx",
+    "archive": {
+      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "SignOff": false,
+      "AccessCode": "13",
+      "Paragraph": "Offl §13 jfr Fvl §13.1",
+      "NoarkClassificationCode": "B31",
+      "Status": "J"
+    },
+    "distribution": {
+      "kunDigitalLevering": false
+    }
+  }
+}
