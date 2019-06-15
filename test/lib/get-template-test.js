@@ -41,6 +41,9 @@ const expectedData = {
         urlTekst: 'Bruk egen PC'
       }
     ]
+  },
+  agreementService: {
+    serviceUrl: 'https://avtaler.api.service.t-fk.no/agreements'
   }
 }
 
