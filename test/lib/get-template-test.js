@@ -4,7 +4,7 @@ const templates = require('../../templates/avtaler.json')
 
 const expectedData = {
   file: 'elevpc.docx',
-  name: 'Avtale om leasing-pc fra Telemark fylkeskommune',
+  name: 'Avtale om leie-pc fra Telemark fylkeskommune',
   dueDays: 75,
   dueDate: false,
   expireDate: false,
@@ -20,7 +20,7 @@ const expectedData = {
     Paragraph: 'Offl §13 jfr Fvl §13.1',
     NoarkClassificationCode: 'B31',
     Status: 'J',
-    Title: 'Leieavtale elev-pc'
+    Title: 'Avtale om leie-pc fra Telemark fylkeskommune'
   },
   distribution: {
     kunDigitalLevering: true,
