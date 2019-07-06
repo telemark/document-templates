@@ -24,7 +24,7 @@
   },
   "elevpc": {
     "file": "elevpc.docx",
-    "name": "Avtale om leasing-pc fra Telemark fylkeskommune",
+    "name": "Avtale om leie-pc fra Telemark fylkeskommune",
     "dueDays": 75,
     "dueDate": false,
     "expireDate": false,
@@ -34,7 +34,7 @@
     "requireGuardianConsent": true,
     "dropManualDistribution": false,
     "archive": {
-      "Title": "Leieavtale elev-pc",
+      "Title": "Avtale om leie-pc fra Telemark fylkeskommune",
       "Category": "Dokument ut",
       "SignOff": true,
       "AccessCode": "13",
@@ -157,7 +157,7 @@
     "requireGuardianConsent": false,
     "dropManualDistribution": false,
     "archive": {
-      "Title": "Dokumenter må sendes til elev",
+      "Title": "Brev skal sendes per post",
       "Category": "Internt notat / e-post MED oppfølging (N)",
       "SignOff": false,
       "AccessCode": "13",
