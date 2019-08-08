@@ -59,6 +59,13 @@ returns
 }
 ```
 
+# Description
+
+- [Avtaler](docs/avtaler.md)
+- [MinElev](docs/minelev.md)
+- [Tilskudd](docs/tilskudd.md)
+- [Vigo](docs/vigo.md)
+
 # License
 
 [MIT](LICENSE)
