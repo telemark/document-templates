@@ -24,7 +24,7 @@
   },
   "elevpc": {
     "file": "elevpc.docx",
-    "name": "Avtale om leie-pc fra Telemark fylkeskommune",
+    "name": "Avtale om leie-PC fra Telemark fylkeskommune",
     "dueDays": 75,
     "dueDate": false,
     "expireDate": false,
@@ -34,7 +34,7 @@
     "requireGuardianConsent": true,
     "dropManualDistribution": false,
     "archive": {
-      "Title": "Avtale om leie-pc fra Telemark fylkeskommune",
+      "Title": "Avtale om leie-PC fra Telemark fylkeskommune",
       "Category": "Dokument ut",
       "SignOff": true,
       "AccessCode": "13",
@@ -52,13 +52,8 @@
         },
         {
           "ledetekst": "Se også:",
-          "urlLenke": "https://www.telemark.no/Vaare-tjenester/Utdanning/For-elever/PC-i-skolen/Artikler/Leasing-PC",
-          "urlTekst": "Leasing PC"
-        },
-        {
-          "ledetekst": "Prøveordning:",
-          "urlLenke": "https://www.telemark.no/Vaare-tjenester/Utdanning/For-elever/PC-i-skolen/Artikler/Egen-PC-proeveordning",
-          "urlTekst": "Bruk egen PC"
+          "urlLenke": "https://www.telemark.no/Vaare-tjenester/Utdanning/For-elever/PC-i-skolen/Artikler/Leie-PC",
+          "urlTekst": "Leie-PC"
         }
       ]
     },
