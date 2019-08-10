@@ -4,7 +4,7 @@ const templates = require('../../templates/avtaler.json')
 
 const expectedData = {
   file: 'elevpc.docx',
-  name: 'Avtale om leie-pc fra Telemark fylkeskommune',
+  name: 'Avtale om leie-PC fra Telemark fylkeskommune',
   dueDays: 75,
   dueDate: false,
   expireDate: false,
@@ -20,7 +20,7 @@ const expectedData = {
     Paragraph: 'Offl §13 jfr Fvl §13.1',
     NoarkClassificationCode: 'B31',
     Status: 'J',
-    Title: 'Avtale om leie-pc fra Telemark fylkeskommune'
+    Title: 'Avtale om leie-PC fra Telemark fylkeskommune'
   },
   distribution: {
     kunDigitalLevering: true,
@@ -32,13 +32,8 @@ const expectedData = {
       },
       {
         ledetekst: 'Se også:',
-        urlLenke: 'https://www.telemark.no/Vaare-tjenester/Utdanning/For-elever/PC-i-skolen/Artikler/Leasing-PC',
-        urlTekst: 'Leasing PC'
-      },
-      {
-        ledetekst: 'Prøveordning:',
-        urlLenke: 'https://www.telemark.no/Vaare-tjenester/Utdanning/For-elever/PC-i-skolen/Artikler/Egen-PC-proeveordning',
-        urlTekst: 'Bruk egen PC'
+        urlLenke: 'https://www.telemark.no/Vaare-tjenester/Utdanning/For-elever/PC-i-skolen/Artikler/Leie-PC',
+        urlTekst: 'Leie-PC'
       }
     ]
   },
