@@ -14,7 +14,7 @@ module.exports = options => {
   }
 
   const domain = require(`./templates/${options.domain}.json`)
-  let document = domain[options.templateId.toLowerCase()]
+  const document = domain[options.templateId.toLowerCase()]
 
   if (!document) {
     throw new Error('Template not found')

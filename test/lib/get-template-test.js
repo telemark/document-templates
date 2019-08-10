@@ -52,7 +52,7 @@ test('It returns data if template exists', t => {
 })
 
 test('It returns expected metadata', t => {
-  let template = getTemplate({ domain: 'avtaler', templateId: 'elevpc' })
+  const template = getTemplate({ domain: 'avtaler', templateId: 'elevpc' })
   delete template.filePath
   t.deepEqual(expectedData, template, 'Data OK')
 })
