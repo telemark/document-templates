@@ -5,7 +5,7 @@ const templates = require('../../templates/avtaler.json')
 const expectedData = {
   file: 'elevpc.docx',
   name: 'Avtale om leie-PC fra Telemark fylkeskommune',
-  dueDays: 75,
+  dueDays: 150,
   dueDate: false,
   expireDate: false,
   expireDays: false,
