@@ -17,7 +17,7 @@ const expectedData = {
     Category: 'Dokument ut',
     SignOff: true,
     AccessCode: '13',
-    Paragraph: 'Offl §13 jfr Fvl §13.1',
+    Paragraph: 'Offl. § 13 jf. fvl. § 13 (1) nr.1',
     NoarkClassificationCode: 'B31',
     Status: 'J',
     Title: 'Avtale om leie-PC fra Telemark fylkeskommune'
