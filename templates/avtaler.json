@@ -129,7 +129,7 @@
     "dropManualDistribution": false,
     "archive": {
       "Title": "må sendes til foresatte for elev",
-      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "Category": "Internt notat / e-post MED oppfølging",
       "SignOff": false,
       "AccessCode": "13",
       "Paragraph": "Offl. § 13 jf. fvl. § 13 (1) nr.1",
@@ -153,7 +153,7 @@
     "dropManualDistribution": false,
     "archive": {
       "Title": "Brev skal sendes per post",
-      "Category": "Internt notat / e-post MED oppfølging (N)",
+      "Category": "Internt notat / e-post MED oppfølging",
       "SignOff": false,
       "AccessCode": "13",
       "Paragraph": "Offl. § 13 jf. fvl. § 13 (1) nr.1",
