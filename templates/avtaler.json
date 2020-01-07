@@ -24,7 +24,7 @@
   },
   "elevpc": {
     "file": "elevpc.docx",
-    "name": "Avtale om leie-PC fra Telemark fylkeskommune",
+    "name": "Avtale om leie-PC fra Vestfold og Telemark fylkeskommune",
     "dueDays": 150,
     "dueDate": false,
     "expireDate": false,
@@ -34,7 +34,7 @@
     "requireGuardianConsent": true,
     "dropManualDistribution": false,
     "archive": {
-      "Title": "Avtale om leie-PC fra Telemark fylkeskommune",
+      "Title": "Avtale om leie-PC fra Vestfold og Telemark fylkeskommune",
       "Category": "Dokument ut",
       "SignOff": true,
       "AccessCode": "13",
