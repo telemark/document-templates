@@ -4,7 +4,7 @@ const templates = require('../../templates/avtaler.json')
 
 const expectedData = {
   file: 'elevpc.docx',
-  name: 'Avtale om leie-PC fra Telemark fylkeskommune',
+  name: 'Avtale om leie-PC fra Vestfold og Telemark fylkeskommune',
   dueDays: 150,
   dueDate: false,
   expireDate: false,
@@ -20,7 +20,7 @@ const expectedData = {
     Paragraph: 'Offl. § 13 jf. fvl. § 13 (1) nr.1',
     NoarkClassificationCode: 'B31',
     Status: 'J',
-    Title: 'Avtale om leie-PC fra Telemark fylkeskommune'
+    Title: 'Avtale om leie-PC fra Vestfold og Telemark fylkeskommune'
   },
   distribution: {
     kunDigitalLevering: true,
@@ -72,12 +72,10 @@ test('Requires input - options.templateId', t => {
 
 test('Throws if domain does not exist', t => {
   const error = t.throws(() => getTemplate({ domain: 'finnes-ikke', templateId: 'finnes-ikke' }))
-
-  t.is(error.message, 'Cannot find module \'./templates/finnes-ikke.json\'')
+  t.true(error.message.toString().startsWith('Cannot find module \'./templates/finnes-ikke.json\''))
 })
 
 test('Throws if template does not exist', t => {
   const error = t.throws(() => getTemplate({ domain: 'avtaler', templateId: 'finnes-ikke' }))
-
   t.is(error.message, 'Template not found')
 })
